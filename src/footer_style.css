@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(Montserrat-Medium.ttf)
+}
+.pfooter {
+    position: absolute;
+    width: 100%;
+    height: 372px;
+    left: 0px;
+    top: 974px;
+
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+}
+
+.logo_footer{
+    margin: 26px 0px 15px 4.2%;
+    float: left;
+}
+
+.logo_footer_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: -10px;
+
+    color: rgba(31, 32, 65, 0.75);
+}
+
+.navigator_footer {
+    float:left;
+    margin: 30px 0px 15px -2.4%;
+    
+    
+}
+
+.main_text_footer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 71.2%;
+    line-height: 15px;
+
+    text-transform: uppercase;
+
+    color: #1F2041;
+}
+
+.child_text_footer {
+    margin: 21px 0px 0px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.aboutus_footer {
+    float:left;
+    margin: 30px 0px 15px -1.8%;
+}
+
+.main_text2_footer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 71.2%;
+    line-height: 15px;
+
+    text-transform: uppercase;
+
+    color: #1F2041;
+}
+
+.child_text2_footer {
+    margin: 21px 0px 0px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.service_footer {
+    float:left;
+    margin: 30px 0px 15px 1%;
+}
+
+.main_text3_footer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 71.2%;
+    line-height: 15px;
+
+    text-transform: uppercase;
+
+    color: #1F2041;
+}
+
+.child_text3_footer {
+    margin: 21px 0px 0px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.podpiska_footer {
+    float:left;
+    margin: 30px 0px 15px -2%;
+    width: 300px;
+    height: 168px;
+    left: 440px;
+    top: 1004px;
+}
+
+.main_text4_footer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 71.2%;
+    line-height: 15px;
+
+    text-transform: uppercase;
+
+    color: #1F2041;
+}
+
+.child_text4_footer {
+    margin: 19px 0px 0px 0px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+color: rgba(31, 32, 65, 0.75);
+}
+
+ .child_text4_footer[type="search"] {
+    margin-top: 22px;
+    width: 260px;
+    height: 44px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-style: solid;
+    border-radius: 5px;
+    background-image: url(standart_navbar.svg);   
+    background-repeat: no-repeat; /*Убираем повтор изображения*/   
+    background-position: 230px; /*Позиционируем*/
+
+    
+  }
+
+  .child_text4_footer[placeholder="Email"] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 10px;
+    /* identical to box height, or 171% */
+    
+    /* Dark 25% */
+    color: rgba(31, 32, 65, 0.25);
+  }
