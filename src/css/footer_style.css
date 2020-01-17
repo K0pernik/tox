@@ -12,7 +12,6 @@
   margin: 11px 0px 15px 9.3%;
   float: left;
 }
-
 .logo_footer_text {
   font-family: Montserrat;
   font-style: normal;
@@ -129,8 +128,7 @@
   line-height: 24px;
   color: rgba(31, 32, 65, 0.75);
 }
-
-.child_text4_footer[type="search"] {
+.child_text4_footer[type=search] {
   margin-top: 6px;
   width: 260px;
   height: 44px;
@@ -140,14 +138,13 @@
   border-style: solid;
   border: 1px solid rgba(31, 32, 65, 0.25);
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 4px;
   background-image: url("../img/arrow_forward.png");
   background-repeat: no-repeat;
   background-position: 230px;
 }
-
-.child_text4_footer[placeholder="Email"] {
+.child_text4_footer[placeholder=Email] {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -192,4 +189,3 @@
   float: right;
   margin: -20px 10.4% 0px 0px;
 }
-/*# sourceMappingURL=footer_style.css.map */

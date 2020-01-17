@@ -1,34 +1,33 @@
 $var1: #1F2041
 
-.pfooter 
+.pfooter
 	margin: 973px 0px 105px 0px
 	background: white
-    box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1)
+	background-box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1)
 	bottom: 0
-    height: 100px
-    min-width: 100%
-    position: absolute
-	
+	bottom-height: 100px
+	bottom-min-width: 100%
+	bottom-position: absolute
 
-.logo_footer 
-  	margin: 11px 0px 15px 9.3%
-  	float: left
+.logo_footer
+	margin: 11px 0px 15px 9.3%
+	float: left
+	&_text
+		font-family: Montserrat
+		font-style: normal
+		font-weight: normal
+		font-size: 87%
+		line-height: 24px
+		margin-top: -25px
+		color: rgba(31, 32, 65, 0.75)
 
-.logo_footer_text 
-    font-family: Montserrat
-    font-style: normal
-    font-weight: normal
-    font-size: 87%
-    line-height: 24px
-    margin-top: -25px
-    color: rgba(31, 32, 65, 0.75)
 
-.navigator_footer 
+.navigator_footer
 	float: left
 	margin: 19.9px 0px 15px 3.5%
 	font-size: 16.5px
 
-.main_text_footer 
+.main_text_footer
 	font-family: Montserrat
 	font-style: normal
 	font-weight: bold
@@ -37,7 +36,7 @@ $var1: #1F2041
 	text-transform: uppercase
 	color: $var1
 
-.child_text_footer 
+.child_text_footer
 	margin: 21px 0px 0px 0px
 	font-family: Montserrat
 	font-style: normal
@@ -46,11 +45,11 @@ $var1: #1F2041
 	line-height: 17px
 	color: rgba(31, 32, 65, 0.5)
 
-.aboutus_footer 
+.aboutus_footer
 	float: left
 	margin: 19.9px 0px 15px 4%
 
-.main_text2_footer 
+.main_text2_footer
 	font-family: Montserrat
 	font-style: normal
 	font-weight: bold
@@ -59,7 +58,7 @@ $var1: #1F2041
 	text-transform: uppercase
 	color: $var1
 
-.child_text2_footer 
+.child_text2_footer
 	margin: 21px 0px 0px 0px
 	font-family: Montserrat
 	font-style: normal
@@ -68,11 +67,11 @@ $var1: #1F2041
 	line-height: 17px
 	color: rgba(31, 32, 65, 0.5)
 
-.service_footer 
+.service_footer
 	float: left
 	margin: 20px 0px 15px 6.5%
 
-.main_text3_footer 
+.main_text3_footer
 	font-family: Montserrat
 	font-style: normal
 	font-weight: bold
@@ -81,7 +80,7 @@ $var1: #1F2041
 	text-transform: uppercase
 	color: $var1
 
-.child_text3_footer 
+.child_text3_footer
 	margin: 21px 0px 0px 0px
 	font-family: Montserrat
 	font-style: normal
@@ -90,7 +89,7 @@ $var1: #1F2041
 	line-height: 17px
 	color: rgba(31, 32, 65, 0.5)
 
-.podpiska_footer 
+.podpiska_footer
 	float: left
 	margin: 20px 0px 15px 3.9%
 	width: 300px
@@ -98,7 +97,7 @@ $var1: #1F2041
 	left: 440px
 	top: 1004px
 
-.main_text4_footer 
+.main_text4_footer
 	font-family: Montserrat
 	font-style: normal
 	font-weight: bold
@@ -107,9 +106,9 @@ $var1: #1F2041
 	text-transform: uppercase
 	color: $var1
 	margin-left: -3px
-	margin-top: 10.5px 
+	margin-top: 10.5px
 
-.child_text4_footer 
+.child_text4_footer
 	margin: 20px 0px 0px -3px
 	font-family: Montserrat
 	font-style: normal
@@ -117,7 +116,7 @@ $var1: #1F2041
 	font-size: 14px
 	line-height: 24px
 	color: rgba(31, 32, 65, 0.75)
-	&[type="search"] 
+	&[type="search"]
 		margin-top: 6px
 		width: 260px
 		height: 44px
@@ -126,12 +125,13 @@ $var1: #1F2041
 		text-overflow: ellipsis
 		border-style: solid
 		border: 1px solid rgba(31, 32, 65, 0.25)
+		-webkit-box-sizing: border-box
 		box-sizing: border-box
 		border-radius: 4px
 		background-image: url("../img/arrow_forward.png")
 		background-repeat: no-repeat
-		background-position: 230px   
-	&[placeholder="Email"] 
+		background-position: 230px
+	&[placeholder="Email"]
 		font-family: Montserrat
 		font-style: normal
 		font-weight: normal
@@ -139,7 +139,8 @@ $var1: #1F2041
 		line-height: 24px
 		padding-left: 10px
 		color: rgba(31, 32, 65, 0.493)
-	
+
+
 .clear
 	clear: both
 
@@ -149,7 +150,7 @@ $var1: #1F2041
 	margin: 0 auto
 
 .footer_box_text
-	margin: 113px 0px 0px 131px 
+	margin: 113px 0px 0px 131px
 	font-family: Montserrat
 	font-style: normal
 	font-weight: normal
@@ -161,13 +162,12 @@ $var1: #1F2041
 	width: 24px
 	float: right
 	margin: -18.5px 1.46% 0px 0px
-	
+
 .logo_facebook
 	float: right
-	
 	margin: -20px 1.56% 0px 0px
 
 .logo_intagram
 	float: right
-	
 	margin: -20px 10.4% 0px 0px
+

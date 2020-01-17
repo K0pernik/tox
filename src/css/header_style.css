@@ -1,3 +1,10 @@
+WARNING on line 35, column 2 of header_style.sass: 
+This selector doesn't have any properties and won't be rendered.
+   ╷
+35 │     li 
+   │     ^^^
+   ╵
+
 .head {
   width: 100%;
   height: 70px;
@@ -7,13 +14,11 @@
   right: 0;
   margin: 0 auto;
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
-          box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
 
 .logo {
   float: left;
-  width: 4,166666667%;
   height: 40px;
   top: 0px;
   margin: 15px 0px 0px 9.75%;
@@ -31,13 +36,11 @@ li {
   float: left;
   float: left;
 }
-
 li.dropdown {
   display: inline-block;
   margin: 12px 0px 0px -0.78%;
   font-size: 107%;
 }
-
 li.dropdown_sogl {
   display: inline-block;
   margin: 12px 0px 0px -2%;
@@ -50,7 +53,7 @@ li a, .dropbtn {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  width: 5,208333333%;
+  width: 5, 208333333%;
 }
 
 .dropdown-content {
@@ -58,11 +61,9 @@ li a, .dropbtn {
   position: absolute;
   background-color: #FFFFFF;
   min-width: 160px;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -70,7 +71,6 @@ li a, .dropbtn {
   display: block;
   text-align: left;
 }
-
 .dropdown-content a:hover {
   background-color: #bc9cff;
 }
@@ -117,7 +117,6 @@ li a, .dropbtn {
   border-radius: 22px;
   padding: 9px 20px 6px 18px;
   border-color: #bc9cff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#bc9cff), to(#8c72d6));
   background: linear-gradient(to bottom, #bc9cff, #8c72d6);
   text-align: center;
   margin: 17.9px 10px 0px 16.4%;
@@ -128,13 +127,13 @@ li a, .dropbtn {
 .news {
   margin: 12px 0px 0px -15.5%;
   font-size: 87%;
-  width: 6,458333333;
+  width: 6, 458333333;
 }
 
 .aboutus {
   margin: 12px 0px 0px 18.7%;
   font-size: 87%;
-  width: 4,375%;
+  width: 4, 375%;
 }
 
 .exp_head {
@@ -150,4 +149,3 @@ li a, .dropbtn {
 .exp_sogl_head {
   margin: 0px 0px 0px -9%;
 }
-/*# sourceMappingURL=header_style.css.map */
