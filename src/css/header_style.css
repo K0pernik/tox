@@ -1,10 +1,3 @@
-WARNING on line 35, column 2 of header_style.sass: 
-This selector doesn't have any properties and won't be rendered.
-   ╷
-35 │     li 
-   │     ^^^
-   ╵
-
 .head {
   width: 100%;
   height: 70px;
@@ -34,12 +27,15 @@ ul {
 
 li {
   float: left;
-  float: left;
 }
 li.dropdown {
   display: inline-block;
   margin: 12px 0px 0px -0.78%;
   font-size: 107%;
+}
+
+li {
+  float: left;
 }
 li.dropdown_sogl {
   display: inline-block;
@@ -53,7 +49,6 @@ li a, .dropbtn {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  width: 5, 208333333%;
 }
 
 .dropdown-content {
@@ -127,13 +122,11 @@ li a, .dropbtn {
 .news {
   margin: 12px 0px 0px -15.5%;
   font-size: 87%;
-  width: 6, 458333333;
 }
 
 .aboutus {
   margin: 12px 0px 0px 18.7%;
   font-size: 87%;
-  width: 4, 375%;
 }
 
 .exp_head {
