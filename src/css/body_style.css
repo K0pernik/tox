@@ -1,4 +1,26 @@
+WARNING on line 76, column 3 of body_style.sass: 
+This selector doesn't have any properties and won't be rendered.
+   ╷
+76 │         color:rgba(31, 32, 65, 0.75)
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+
+WARNING on line 113, column 3 of body_style.sass: 
+This selector doesn't have any properties and won't be rendered.
+    ╷
+113 │         color:rgba(31, 32, 65, 0.75)
+    │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+
+WARNING on line 150, column 3 of body_style.sass: 
+This selector doesn't have any properties and won't be rendered.
+    ╷
+150 │         color:rgba(31, 32, 65, 0.75)
+    │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+
 @charset "UTF-8";
+@import url("nullstyle.scss");
 body {
   background-color: #ffffff;
 }
@@ -22,16 +44,14 @@ body {
   top: 15.6%;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.12);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
 #h1_win {
   font-style: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   width: 320px;
   font-weight: bold;
   font-size: 24px;
@@ -58,8 +78,7 @@ body {
 .form_prib_win {
   margin: 0px 0px 30px 0px;
 }
-
-.form_prib_win[type="search"] {
+.form_prib_win[type=search] {
   margin: -10.7px 0px 0px 29px;
   width: 150px;
   height: 44px;
@@ -73,7 +92,6 @@ body {
   background-position: 121px;
   border: 1px solid rgba(31, 32, 65, 0.25);
 }
-
 .form_prib_win[placeholder="ДД.ММ.ГГГГ"] {
   font-family: Montserrat;
   font-style: normal;
@@ -82,7 +100,6 @@ body {
   line-height: 24px;
   padding-left: 13px;
 }
-
 .block_viesd_win {
   margin-left: 200px;
 }
@@ -101,8 +118,7 @@ body {
 .form_viesd_win {
   margin: 0px 0px 0px 0px;
 }
-
-.form_viesd_win[type="search"] {
+.form_viesd_win[type=search] {
   margin: -10.7px 0px 0px -1px;
   width: 150px;
   height: 44px;
@@ -116,7 +132,6 @@ body {
   background-position: 121px;
   border: 1px solid rgba(31, 32, 65, 0.25);
 }
-
 .form_viesd_win[placeholder="ДД.ММ.ГГГГ"] {
   font-family: Montserrat;
   font-style: normal;
@@ -125,7 +140,6 @@ body {
   line-height: 24px;
   padding-left: 13px;
 }
-
 .block_guest_win {
   margin: 20px 0px 0px 29px;
 }
@@ -144,8 +158,7 @@ body {
 .form_guest_win {
   margin: 0px 0px 0px 0px;
 }
-
-.form_guest_win[type="search"] {
+.form_guest_win[type=search] {
   margin: -10px 0px 0px 0px;
   width: 320px;
   height: 44px;
@@ -159,7 +172,6 @@ body {
   background-position: 290px;
   border: 1px solid rgba(31, 32, 65, 0.25);
 }
-
 .form_guest_win[placeholder="Сколько гостей"] {
   font-family: Montserrat;
   font-style: normal;
@@ -168,7 +180,6 @@ body {
   line-height: 24px;
   padding-left: 13px;
 }
-
 .block_button_win {
   margin: 42px 0px 0px 0px;
 }
@@ -194,4 +205,3 @@ body {
   color: white;
   text-decoration: none;
 }
-/*# sourceMappingURL=body_style.css.map */
