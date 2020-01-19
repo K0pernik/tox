@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" class="with-sticky-footer">
+<html lang="ru">
   <head>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width initial-scale=1.0">
@@ -10,120 +10,93 @@
     <link href="src/css/footer_style.css" rel="stylesheet">
     <title>Toxin</title>
   </head>
-
   <body>
-      <header class="head">
 
-          <div >
-              <ul class="group_2">
-                <li class="logo"><img src="src/img/logo_with_text.svg" alt="logo header's"></li>
-                <li class="bhanoy aboutus"><a href="src/page/about.html">O нас</a></li>
-                <li class="dropdown">
-                  <a href="javascript:void(0)" class="dropbtn bhanoy">Услуги</a>
-                  <img class="exp_head" src="src/img/expand.svg" alt="expand">
-                    <div class="dropdown-content">
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
-                    </div>
-                  </li>
-                <li><a href="page/careers.html" class="bhanoy vakans">Вакансии</a></li>
-                <li><a href="page/news.html" class="bhanoy news">Новости</a></li>
-                <li class="dropdown dropdown_sogl">
-                  <a href="javascript:void(0)" class="dropbtn bhanoy">Соглашения</a>
-                  <img class="exp_sogl_head" src="src/img/expand.svg" alt="expand">
-                    <div class="dropdown-content">
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
-                    </div>
-                  </li>
-                  <li><a href="page/.." class="bLogin_head">Войти</a></li>
-                  <li><a href="page/.." class="breg_head">Зарегистрироваться</a></li>
-              </ul>  
-          </div>
-      </header>
+  <header role="banner">
+    <div class="header__body">
+      <div class="header__logo"><img src="src/img/logo_with_text.png" alt="logo header's"></div>
+      <nav role="navigation">
+        <div class="nav__text">O нас</div>
+        <div class="nav__text">Услуги</div>
+        <div class="nav__text">Вакансии</div>
+        <div class="nav__text">Новости</div>
+        <div class="nav__text">Соглашения</div>
+      </nav>
+      <div class="header__button_login">Войти</div>
+      <div class="header__button_registration">Зарегистрироваться</div>
+    </div>
+  </header>
 
-      <div class="mainBlock">
-        <div class="mainImage">
-          <div class="mainImage__body">
-            <div class="mainImage__image"><img src="src/img/body_img.jpg" alt="main image"></div>
+    <main>
+        <div class="main-image">
+          <div class="main-image__body">
+            <div class="main-image__image"><img src="src/img/body_img.jpg" alt="main image"></div>
           </div>
         </div>
-        <div class="windowSearch">
-          <div class="win"
+        <div class="window-search">
+          <div class="window-search__body">
+            <div class="window-search__title">Найдём номера под <br>ваши пожелания</div>
+            <div class="form-search_arrivel">
+              <div class="form-search__text">Прибытие</div>
+              <div class="form-search__input"><input type="search"  placeholder="ДД.ММ.ГГГГ"></div>
+            </div>
+            <div class="form-search_departure">
+              <div class="form-search__text">Выезд</div>
+              <div class="form-search__input"><input type="search"  placeholder="ДД.ММ.ГГГГ"></div>
+            </div>
+            <div class="form-search_guest">
+              <div class="form-search__text">Гости</div>
+              <div class="form-search__input"><input type="search"  placeholder="Сколько гостей"></div>
+            </div>
+            <div class="window-search__button_find">
+              <a href="page/..">подобрать номер</a>
+            </div>
+          </div>
+        </div>
+    </main>
+
+  <footer role="contentinfo">
+      <div class="footer__body">
+        <div class="footer__logo">
+          <img src="src/img/logo_with_text.png" alt="logo footer">
+          <div class="footer__text">Бронирование номеров в лучшем<br>
+            отеле 2019 года по версии<br>
+            ассоциации <q>Отельные взгляды</q></div>
+        </div>
+        <div class="footer__navigation">
+          <div class="footer__text">Навигация</div>
+          <div class="footer__text">О нас</div>
+          <div class="footer__text">Новости</div>
+          <div class="footer__text">Служба поддержки</div>
+          <div class="footer__text">Услуги</div>
+        </div>
+        <div class="footer__about">
+          <div class="footer__text">О нас</div>
+          <div class="footer__text">О сервисе</div>
+          <div class="footer__text">Наша команда</div>
+          <div class="footer__text">Вакансии</div>
+          <div class="footer__text">Инвесторы</div>
+        </div>
+        <div class="footer__service-help">
+          <div class="footer__text">Служба поддержки</div>
+          <div class="footer__text">Соглашения</div>
+          <div class="footer__text">Сообщества</div>
+          <div class="footer__text">Связь с нами</div>
+        </div>
+        <div class="footer__subscription">
+          <div class="footer__text">Подписка</div>
+          <div class="footer__text">Получайте специальные
+            предложения и новости сервиса</div>
         </div>
       </div>
-
-    <div class="window_find_nom">
-      <p id="h1_win">Найдём номера под<br> ваши пожелания</p>
-      <div class="block_prib_win">
-      <p class="main_prib_win">Прибытие</p>
-      <p><input class="form_prib_win" type="search"  placeholder="ДД.ММ.ГГГГ" name="q"></p>
+      <div class="copyright">
+        <div class="copyright__text">Copyright © 2018 Toxin отель. Все права зачищены.</div>
+        <div class="copyright__elements">
+          <a href="#"><img src="src/img/instagram_logo.png" alt="instagram image"></a>
+          <a href="#"><img src="src/img/facebook_logo.png" alt="facebook image"></a>
+          <a href="#"><img src="src/img/twitter_logo.png" alt="twitter image"></a>
+        </div>
       </div>
-      <div class="block_viesd_win">
-      <p class="main_viesd_win">Выезд</p>
-      <p><input class="form_viesd_win" type="search"  placeholder="ДД.ММ.ГГГГ" name="q"></p>
-      </div>
-    <div class="block_guest_win">
-      <p class="main_guest_win">Гости</p>
-        <p><input class="form_guest_win" type="search"  placeholder="Сколько гостей" name="q"></p>    
-    </div>
-    <div class="block_button_win"></div>
-    <a href="page/.." class="button_win">подобрать номер</a>
-    </div>
-
-    <footer>
-      <div class="pfooter">
-        <div class="logo_footer">
-          <p><img src="src/img/logo_with_text.svg" alt="logo footer's">
-          <p class="logo_footer_text"><br>Бронирование номеров в лучшем<br>
-              отеле 2019 года по версии<br>
-              ассоциации <q>Отельные взгляды</q></p>
-        </div>
-
-        <div class="navigator_footer">
-          <p class="main_text_footer">Навигация</p>
-          <p class="child_text_footer">О нас</p>
-          <p class="child_text_footer">Новости</p>
-          <p class="child_text_footer">Служба поддержки</p>
-          <p class="child_text_footer">Услуги</p>
-        </div>
-
-        <div class="aboutus_footer">
-          <p class="main_text2_footer">О нас</p>
-          <p class="child_text2_footer">О сервисе</p>
-          <p class="child_text2_footer">Наша команда</p>
-          <p class="child_text2_footer">Вакансии</p>
-          <p class="child_text2_footer">Инвесторы</p> 
-        </div>
-
-        <div class="service_footer">
-          <p class="main_text3_footer">Служба поддержки</p>
-          <p class="child_text3_footer">Соглашения</p>
-          <p class="child_text3_footer">Сообщества</p>
-          <p class="child_text3_footer">Связь с нами</p>
-        </div>
-    
-        <div class="podpiska_footer">
-          <p class="main_text4_footer">Подписка</p>
-          <p class="child_text4_footer">Получайте специальные<br>
-                                        предложения и новости сервиса</p>
-          <p><input class="child_text4_footer" type="search"  placeholder="Email" name="q"></p>   
-              
-      </div>
-    </div>
-    <br class="clear">  
-    <div class="footer_footer">
-      <div class="footer_box_text">
-      Copyright © 2018 Toxin отель. Все права защищены.
-      </div>  
-      <div>
-        <img class="logo_intagram" src="src/img/instagram_logo.svg" alt="logo instagram">
-        <img class="logo_facebook" src="src/img/facebook_logo.svg" alt="logo facebook">
-        <img class="logo_twitter" src="src/img/twitter_logo.svg" alt="logo twitter">
-        </div>
-    </div>
-  </footer>  
+    </footer>
   </body>
 </html>
