@@ -75,34 +75,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-.header__body {
-  width: 1160px;
-  height: 70px;
-  left: 0px;
-  top: 0px;
-  background: #FFFFFF;
-  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
-  margin: 0 auto;
-  overflow: hidden;
-}
-.header__logo {
-  float: left;
-  width: 105.69px;
-  height: 40px;
-  margin-top: 15px;
+* {
+  box-sizing: border-box;
 }
 
-.nav {
-  margin: 26px 0px 0px 20%;
-  width: 422px;
+.header {
+  text-align: justify;
+  letter-spacing: 1px;
+  height: 8em;
+  padding: 2em 10%;
+  background: #2c3e50;
+  color: #fff;
 }
-.nav__text {
-  float: left;
-  font-family: Montserrat, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: rgba(31, 32, 65, 0.5);
-  padding-right: 5%;
+.nav {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
